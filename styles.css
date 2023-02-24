@@ -4,8 +4,17 @@ header {
 
 body {
     background-color: white;
+    margin: 8px;
+    display: block;
 }
 
+#mainHeading {
+    color: red;
+}
+
+.funParagraph{
+    color: green;
+}
 p {
     color: white ;
     font-weight: normal;
@@ -23,8 +32,8 @@ section > p {
      background-color: #3B4D73;
 }
 
-h1, h2 {
-    color: #e80f5e;
+h2 {
+    color: orange;
     font-size: 25px;
 }
 
@@ -40,6 +49,6 @@ img{
     margin: auto;
 }
 
-journey {
+.section {
     border: black;
 }
